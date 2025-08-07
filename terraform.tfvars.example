@@ -1,0 +1,10 @@
+aws_region   = "ap-northeast-1"
+project_name = "availability-test"
+environment  = "test"
+vpc_cidr     = "10.0.0.0/16"
+app_port     = 80
+
+# FIS実験のターゲットAZ（空の場合は全AZを対象とする）
+# 例: 特定のAZのみをターゲットにする場合
+# fis_target_availability_zones = ["ap-northeast-1a", "ap-northeast-1c"]
+fis_target_availability_zones = []
